@@ -1,4 +1,4 @@
-import requests
+mport requests
 import json
 import urllib
 import os
@@ -47,7 +47,7 @@ else:
 print ('=============================================')
 print ('Ansible best practices test:')
 
-process = subprocess.Popen(['ansible-lint'],
+process = subprocess.Popen(['ansible-lint', '.'],
            stdout=subprocess.PIPE,
            stderr=subprocess.PIPE,
            universal_newlines=True)
