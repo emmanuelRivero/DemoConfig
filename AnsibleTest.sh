@@ -6,7 +6,7 @@ rm -f ansible-practice.txt
 
 ### running tests ###
 echo Starting YAML-Ansible playbook tests:
-echo YAML auto check results: \n
+echo YAML auto check results:
 
 yamllint .
 if [ $? -gt 0 ]; then
@@ -23,6 +23,7 @@ else
 fi
 
 ### generating report ###
+echo YAML auto check results: >> results.txt
 echo ============================== >> results.txt
 if [ $STRUCTURE -eq 0 ]; then
 		echo YAML structure: OK >> results.txt
