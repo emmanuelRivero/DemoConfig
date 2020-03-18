@@ -198,7 +198,7 @@ if structureCode != 0:
         f.write("=============================================\n")
 
 if structureCode != 0:
-        f.write("\n### Ansible practice test results: ###\n\n")
+        f.write("\n### Ansible best practice test results: ###\n\n")
         f.write(practicesResults)
         f.write("=============================================\n")
 
