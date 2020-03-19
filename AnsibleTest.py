@@ -96,7 +96,7 @@ r = requests.patch(AWXurl + '/api/v2/job_templates/'+ str(copyID) +'/', data=jso
 if r.status_code == 200:
 	print ("Check enable...")
 else:
-	print ("Ups, something happend, cant update the dopy")
+	print ("Ups, something happend, cant update the copy")
 	error = json.loads(r.text)
 	print (error)
 
@@ -137,7 +137,7 @@ r = requests.delete(AWXurl + '/api/v2/job_templates/'+ str(copyID) +'/', auth=(A
 if r.status_code == 204:
 	print ("Copy deleted...")
 else:
-	print ("Ups, something happend, cant update the dopy")
+	print ("Ups, something happend, cant delete the copy")
 	error = json.loads(r.text)
 	print (error)
 
