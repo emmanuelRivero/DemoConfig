@@ -11,9 +11,9 @@ import time
 AWXurl = 'http://35.237.194.234'
 AWXuser = 'emmait'
 AWXpassword = 'emmanuelrf1234'
-TemplateName = 'DemoBanorte'
+TemplateName = 'BanorteDeployment'
 CopyName = 'Dry-run ' + TemplateName
-TemplateID = 9
+TemplateID = 53
 
 ### check connectivity to the AWX and if there is an other test running for this template 
 r = requests.get(AWXurl + '/api/v2/job_templates/?search='+ CopyName, auth=(AWXuser,AWXpassword))
