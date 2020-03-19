@@ -112,7 +112,7 @@ if r.status_code == 201:
 		r = requests.get(AWXurl + '/api/v2/jobs/'+ str(JobID) +'/', auth=(AWXuser,AWXpassword))
 		jobData = json.loads(r.text)
 		status = jobData["status"]
-		if status == "running" or status == "pending" :
+		if status == "running" or status == "pending" or status == "waiting" :
 			print ("Please wait, the test is running...")
 
 		else:
