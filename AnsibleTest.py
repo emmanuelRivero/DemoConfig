@@ -207,7 +207,7 @@ f.write(dryResult)
 f.close()
 print ("results.txt genereted")
 
-if structureResults != 0 or practicesResults != 0 or dryResult !=0:
+if structureCode != 0 or practicesCode != 0 or jobFinalStatus !=0:
 	sys.exit(1)
 
 
