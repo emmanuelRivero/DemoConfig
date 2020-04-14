@@ -8,10 +8,10 @@ import time
 
 #ARG1 = sys.argv[1]
 
-AWXurl = 'http://35.237.194.234'
-AWXuser = 'emmait'
-AWXpassword = 'emmanuelrf1234'
-TemplateName = ' AppDeploy'
+AWXurl = 'http://34.68.112.242'
+AWXuser = 'jenkins'
+AWXpassword = 'Y9N7DydNEKveg}kmD7W'
+TemplateName = ' banorteDemo'
 CopyName = 'Dry-run ' + TemplateName
 TemplateID = 54
 
@@ -209,5 +209,4 @@ print ("results.txt genereted")
 
 if structureCode != 0 or practicesCode != 0 or jobFinalStatus !=0:
 	sys.exit(1)
-
 
