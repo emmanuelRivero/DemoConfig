@@ -11,7 +11,7 @@ import time
 AWXurl = 'http://34.68.112.242'
 AWXuser = 'jenkins'
 AWXpassword = 'Y9N7DydNEKveg}kmD7W'
-TemplateName = ' banorteDemo'
+TemplateName = 'banorteDemo'
 CopyName = 'Dry-run ' + TemplateName
 TemplateID = 54
 
