@@ -13,7 +13,7 @@ AWXuser = 'jenkins'
 AWXpassword = 'Y9N7DydNEKveg}kmD7W'
 TemplateName = 'banorteDemo'
 CopyName = 'Dry-run ' + TemplateName
-TemplateID = 54
+TemplateID = 9
 
 ### check connectivity to the AWX and if there is an other test running for this template 
 r = requests.get(AWXurl + '/api/v2/job_templates/?search='+ CopyName, auth=(AWXuser,AWXpassword))
